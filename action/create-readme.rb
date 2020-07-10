@@ -44,7 +44,7 @@ class Readme
     [
       "# 🍕 bdougie's Top 8 🍕",
       "## bdougie has 12121287 followers",
-      build_photo_grid(@developers[0,8]),
+      build_photo_grid(@developers),
     ].join("\n\n")
   end
 
@@ -57,12 +57,14 @@ end
 def build_photo_grid(users)
   lines = []
 
-  users.map{|k, v| k}.each_slice(4) do |slice|
-    header = slice.map { |e| handle_link(e) }.join(" | ").strip
-    delimiter = slice.map { |e| "---" }.join(" | ")
-    row = slice.map { |e| photo_link(e) }.join(" | ").strip
+  users.map{|k, v| k}.each_slice(4).each_with_index do |slice, index|
+    if index <= 1
+      header = slice.map { |e| handle_link(e) }.join(" | ").strip
+      delimiter = slice.map { |e| "---" }.join(" | ")
+      row = slice.map { |e| photo_link(e) }.join(" | ").strip
 
-    lines += [header, delimiter, row, ""]
+      lines += [header, delimiter, row, ""]
+    end
   end
 
   lines.join("\n")
