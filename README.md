@@ -1,6 +1,6 @@
 # 🍕 bdougie's Top 8 🍕
 
-## bdougie has 12121287 followers
+## bdougie has 578 followers
 
 [@aprilspeight](#aprilspeight) | [@bdougie](#bdougie) | [@dayhaysoos](#dayhaysoos) | [@ifiokjr](#ifiokjr)
 --- | --- | --- | ---
