@@ -102,4 +102,4 @@ def update_readme(save: false)
   save ? readme.save! : (puts readme.preview)
 end
 
-update_readme(save: false)
+update_readme(save: true)
