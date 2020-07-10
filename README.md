@@ -1,6 +1,11 @@
-# bdougie's Top 8
+<div align="center">
+  <br>
+  <img alt="Open Sauced" src="https://i.ibb.co/7jPXt0Z/logo1-92f1a87f.png" width="300px">
+  <h1>🍕 bdougie's Top 8 🍕</h1>
+  <strong>The path to your next Open Source contribution</strong>
+</div>
 
-## bdougie has 12121287 followers
+## bdougie has `12121287` followers
 
 [@aprilspeight](#aprilspeight) | [@bdougie](#bdougie) | [@dayhaysoos](#dayhaysoos) | [@ifiokjr](#ifiokjr) | [@m0nica](#m0nica) | [@Prophen](#Prophen)
 --- | --- | --- | --- | --- | ---
