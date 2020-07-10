@@ -7,5 +7,5 @@ WORKDIR /usr/src/app
 COPY Gemfile Gemfile.lock ./
 COPY . .
 
-CMD ["ruby", "./action/create-readme.rb"]
+CMD ["ruby", "./create-readme.rb"]
 #CMD ["ls"]
