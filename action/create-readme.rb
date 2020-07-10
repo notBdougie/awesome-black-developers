@@ -3,6 +3,7 @@
 #/ Update the local README photo wall to reflect the current developers listed in
 # bdougie/awesome-black-developers.
 require "yaml"
+require "octokit"
 
 class Readme
   DEFAULT_README = "README.md"
