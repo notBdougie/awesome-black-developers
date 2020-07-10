@@ -9,7 +9,3 @@
 [@m0nica](#m0nica) | [@Prophen](#Prophen) | [@kjaymiller](#kjaymiller) | [@developerayo](#developerayo)
 --- | --- | --- | ---
 ![@m0nica](https://avatars.githubusercontent.com/m0nica?s=100&v=1) | ![@Prophen](https://avatars.githubusercontent.com/Prophen?s=100&v=1) | ![@kjaymiller](https://avatars.githubusercontent.com/kjaymiller?s=100&v=1) | ![@developerayo](https://avatars.githubusercontent.com/developerayo?s=100&v=1)
-
-[@notBdougie](#notBdougie) | [@bdougieYO](#bdougieYO)
---- | ---
-![@notBdougie](https://avatars.githubusercontent.com/notBdougie?s=100&v=1) | ![@bdougieYO](https://avatars.githubusercontent.com/bdougieYO?s=100&v=1)
