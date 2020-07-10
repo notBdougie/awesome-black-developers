@@ -42,15 +42,9 @@ class Readme
 
   def preview
     [
-      "# Awesome Black Developers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
-      "> Talks, blog posts, and interviews amplifying the voices of Black developers on GitHub because #BlackLivesMatter",
+      "# bdougie's Top 8",
+      "## bdougie has 12121287 followers",
       build_photo_grid(@developers),
-      build_developer_list(@developers),
-      "## 💅🏾 Contributing",
-      "Additional suggestions are welcomed! Check out [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.",
-      "(NOTE: If you're a developer listed on here who would like to be removed, just open an issue or message me privately.)",
-      "## 📖 License and attribution
-      This list is available under the Creative Commons CC0 1.0 License, meaning you are free to use it for any purpose, commercial or non-commercial, without any attribution back to me (public domain). (If you ever want to reference me, find me here! [@bdougieYO](http://twitter.com/bdougieYO) But you are in no way required to do so.)"
     ].join("\n\n")
   end
 
