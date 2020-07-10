@@ -44,7 +44,7 @@ class Readme
     [
       "# 🍕 bdougie's Top 8 🍕",
       "## bdougie has 12121287 followers",
-      build_photo_grid(@developers),
+      build_photo_grid(@developers[0,8]),
     ].join("\n\n")
   end
 
