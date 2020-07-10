@@ -1,9 +1,4 @@
-<div align="center">
-  <br>
-  <img alt="Open Sauced" src="https://i.ibb.co/7jPXt0Z/logo1-92f1a87f.png" width="300px">
-  <h1>🍕 bdougie's Top 8 🍕</h1>
-  <strong>The path to your next Open Source contribution</strong>
-</div>
+# 🍕 bdougie's Top 8 🍕
 
 ## bdougie has `12121287` followers
 
