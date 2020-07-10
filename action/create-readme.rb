@@ -3,14 +3,20 @@
 #/ Update the local README photo wall to reflect the current developers listed in
 # bdougie/awesome-black-developers.
 require "yaml"
+require "json"
 require "octokit"
+
 
 class Readme
   DEFAULT_README = "README.md"
 
+  # Fetch the repo owner
+
   def initialize(filename: DEFAULT_README)
+    client = Octokit::Client.new
     @filename = filename
     @developers = read_developer_yaml.merge(read_temp_file)
+    @user = client.user 'bdougie'
   end
 
   def read_developer_yaml
@@ -44,7 +50,7 @@ class Readme
   def preview
     [
       "# 🍕 bdougie's Top 8 🍕",
-      "## bdougie has 12121287 followers",
+      "## bdougie has #{@user.followers} followers",
       build_photo_grid(@developers),
     ].join("\n\n")
   end
@@ -96,4 +102,4 @@ def update_readme(save: false)
   save ? readme.save! : (puts readme.preview)
 end
 
-update_readme(save: true)
+update_readme(save: false)
